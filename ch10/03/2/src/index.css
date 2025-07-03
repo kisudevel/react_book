@@ -99,7 +99,7 @@ body {
   background-color: white;
 }
 .todo__checkbox:checked {
-  background-image: url("./assets/icons.svg");
+  background-image: url("./assets/check.svg");
   background-repeat: no-repeat;
   background-position: center;
 }

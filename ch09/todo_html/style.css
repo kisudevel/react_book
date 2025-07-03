@@ -12,6 +12,7 @@ body {
   color: #4f4f4f;
 }
 .todo {
+  width: 358px;
   padding: 40px 25px;
   background-color: white;
   border: 1px solid #d1d1d1;

@@ -2,7 +2,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: 'Inter', serif;
+  font-family: "Inter", serif;
 }
 body {
   display: flex;
@@ -12,6 +12,7 @@ body {
   color: #4f4f4f;
 }
 .todo {
+  width: 358px;
   padding: 40px 25px;
   background-color: white;
   border: 1px solid #d1d1d1;
@@ -98,7 +99,7 @@ body {
   background-color: white;
 }
 .todo__checkbox:checked {
-  background-image: url('./assets/icons.svg');
+  background-image: url("./assets/icons.svg");
   background-repeat: no-repeat;
   background-position: center;
 }

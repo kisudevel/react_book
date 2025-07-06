@@ -17,34 +17,6 @@ app.use(express.json()); // 클라이언트가 보내는 JSON 형식의 데이�
 
 // 할일 목록을 저장할 배열 (메모리 상에서만 저장, 서버가 종료되면 데이터가 사라짐)
 let todos = [];
-// let todos = [
-//   { id: 1733887532053, title: "Buy groceries", done: false },
-//   { id: 1733887532054, title: "Finish homework", done: false },
-//   { id: 1733887532055, title: "Clean the house", done: false },
-//   { id: 1733887532056, title: "Call mom", done: false },
-// ];
-
-let users = [
-  {
-    id: 1,
-    name: "Alice",
-    age: 20,
-  },
-  {
-    id: 2,
-    name: "James",
-    age: 20,
-  },
-  {
-    id: 3,
-    name: "John",
-    age: 20,
-  },
-];
-
-app.get("/users", (req, res) => {
-  res.json(users);
-});
 
 app.get("/users/:id", (req, res) => {
   // URL에서 전달된 id 파라미터를 추출

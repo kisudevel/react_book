@@ -4,11 +4,11 @@ export default function App() {
   };
   const handleBubble = (e: React.MouseEvent<HTMLButtonElement, MouseEvent>) => {
     e.stopPropagation();
-    console.log("Bubble: Child");
+    console.log("Child");
   };
   return (
     <div
-      onClickCapture={handleCapture}
+      onClick={handleCapture}
       style={{ padding: "50px", backgroundColor: "#f0f0f0" }}
     >
       Parent

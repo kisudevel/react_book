@@ -35,7 +35,7 @@ export default function TodoListItem({
           type="checkbox"
           className="todo__checkbox"
           checked={todo.done}
-          onChange={() => toggleTodo?.(todo.id)}
+          onChange={() => toggleTodo(todo.id)}
         >
           {todo.title}
         </Checkbox>
